@@ -21,10 +21,10 @@ Graphics: High-quality images and icons used to enhance the visual appeal of the
 
 ## Setup:  
 Clone the repository using the following command:
-git clone https://github.com/aliyabatoolalvi/My-portfolio.git
+- git clone https://github.com/aliyabatoolalvi/My-portfolio.git
 Navigate to the project directory:
-cd My-portfolio
-Open the index.html file in your preferred web browser to view the website locally.
+- cd My-portfolio
+- Open the index.html file in your preferred web browser to view the website locally.
 
 ## Usage:  
 Only for inspiration, for learning purposes and not for making exact copy of it.
