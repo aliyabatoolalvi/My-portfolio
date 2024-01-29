@@ -7,12 +7,12 @@ Portfolio Website Project:
 In this project, I have created a portfolio website to display my projects, skills, and achievements. The website is designed to provide visitors with a clear overview of my work and expertise in a visually appealing manner.
 
 ## Features:  
-Responsive design that adapts to various screen sizes, including mobile devices and desktops.
-Clear navigation through different sections of the website: Home, Portfolio, About Me, and Blog.
-Portfolio section showcases a collection of my projects, accompanied by project descriptions and images.
-About Me section provides visitors with insights into my background, skills, and interests.
-Blog section shows my interest in creating valuable info for tech community.
-Contact section includes a form for visitors to reach out to me directly.
+-- Responsive design that adapts to various screen sizes, including mobile devices and desktops.
+-- Clear navigation through different sections of the website: Home, Portfolio, About Me, and Blog.
+-- Portfolio section showcases a collection of my projects, accompanied by project descriptions and images.
+-- About Me section provides visitors with insights into my background, skills, and interests.
+-- Blog section shows my interest in creating valuable info for tech community.
+-- Contact section includes a form for visitors to reach out to me directly.
 
 ## Technologies Used:  
 HTML: For creating the structure and content of the website.
@@ -27,10 +27,7 @@ Navigate to the project directory:
 - Open the index.html file in your preferred web browser to view the website locally.
 
 ## Usage:  
-Only for inspiration, for learning purposes and not for making exact copy of it.
-
-## Screenshots:  
-Include a few screenshots of your website to give viewers an idea of the design and layout.
+Only for inspiration, for learning purposes and not for making exact copy of it. 
 
 ## Contributing:  
 Contributions to this project are welcome! If you find any issues or have suggestions for improvements, feel free to open a new issue or submit a pull request.
