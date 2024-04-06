@@ -185,10 +185,51 @@ border-bottom: var(--linkhover);
     flex-direction: column ;
     justify-content: space-evenly;
 }
+/* new button */
 
-.contact-btn{
+/* CSS */
+.button-52 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-52:after {
+  content: "";
+  background-color:var(--h1sec);
+  
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
+
+/* old */
+/* .contact-btn{
         background: var(--contactbtn);
-        /* border: 1px solid #000; */
         border-radius: 50%;
         padding: 16px 20px;
         cursor: pointer;
@@ -196,16 +237,16 @@ border-bottom: var(--linkhover);
         border: none;
         margin-bottom: 10px;   
 }
-      
+       */
 .intro h1:hover {
   filter: drop-shadow(0 0 10px orange); /* Applying the glowing shadow effect */
   animation: glowAnimation 1s infinite alternate; /* Adding the animation */
 }    
       
-.contact-btn:hover {
+/* .contact-btn:hover {
         background-color: rgb(0, 0, 0) 0.7;
         box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-      }
+      } */
 
 
      
@@ -379,13 +420,14 @@ border-bottom: var(--linkhover);
 }
 
 .image {
-  width: 330px; /* Adjust the width of the container as needed */
-  height: 300px; /* The container height matches the width to create a square */
-  overflow: hidden; 
-  position: relative; /* Set position for absolute positioning of the image */
-  transition: transform 0.3s; 
-  border-radius: 10px; /* Add rounded corners to the border */
-  box-shadow: 0px 0px 10px rgb(0, 0, 0); /* Add a subtle shadow */
+  width: 330px; 
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.8s ease-in-out;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  
 }
 
 .image img {
@@ -394,11 +436,11 @@ border-bottom: var(--linkhover);
   position: absolute; 
   /* Position the image absolutely inside the container */
   left: 50%; /* Move the image to the center horizontally */
-  transform: translateX(-50%) scale(1.1); /* Adjust for center alignment */
+  transform: translateX(-50%) scale(1.05); /* Adjust for center alignment */
 }
 
 .image:hover {
-  transform: scale(1.05); /* Apply the zoom effect on hover */
+  transform: scale(1.1); /* Apply the zoom effect on hover */
   filter: brightness(0.99); /* Darken the image on hover */
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   background-color: lightgray;
@@ -406,12 +448,12 @@ border-bottom: var(--linkhover);
 
 .work:hover .image {
   padding: 2px; 
-  transition: padding 0.2s ease-in-out;/* Add padding to the .image div on hover */
+  transition: padding 0.5s ease-in-out;/* Add padding to the .image div on hover */
 }
 
 .work:hover .project-name {
   padding-top: 30px;
-  transition: padding 0.2s ease-in-out; /* Add padding to the top of .project-name (h2) on hover */
+  transition: padding 0.5s ease-in-out; /* Add padding to the top of .project-name (h2) on hover */
 }
 
 .image:hover .content{
