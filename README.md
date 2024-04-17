@@ -15,9 +15,9 @@ In this project, I have created a portfolio website to display my projects, skil
 * Contact section includes a form for visitors to reach out to me directly.
 
 ## Technologies Used:  
-HTML: For creating the structure and content of the website.
-CSS: For styling and layout of the website, ensuring a visually pleasing design.
-Graphics: High-quality images and icons used to enhance the visual appeal of the website.
+- HTML: For creating the structure and content of the website.
+- CSS: For styling and layout of the website, ensuring a visually pleasing design.
+- Graphics: High-quality images and icons used to enhance the visual appeal of the website.
 
 ## Setup:  
 Clone the repository using the following command:
